@@ -32,9 +32,10 @@ class Book
   # end 
     
   attr_accessor :author, :page_count, :genre, :title 
-  attr_reader :author, :page_count, :genre, :title
+  attr_reader :title
     
-  # def turn_page
-  #   puts "Flipping the page...wow, you read fast!"
+   def turn_page
+     puts "Flipping the page...wow, you read fast!"
+   end 
   end 
 
