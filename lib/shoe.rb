@@ -7,7 +7,7 @@ class Shoe
   end
     
   def cobble=(cobble)
-    @cobble = cobble 
+    @cobble = new 
   end
   
   def cobble
