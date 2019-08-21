@@ -6,7 +6,7 @@ class Shoe
     @brand = brand 
   end
     
-  def cobble(cobble="new")
+  def cobble(cobble=string)
     @cobble = cobble 
   end
   
