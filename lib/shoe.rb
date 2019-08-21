@@ -7,8 +7,7 @@ class Shoe
   end
     
   def cobble=(cobble)
-    
-  
+    @cobble = cobble 
   end
     
   def cobble
